@@ -1,0 +1,8 @@
+autopep8
+langchain
+python-dotenv
+gunicorn
+uvicorn
+openai
+streamlit>=1.25.0
+faiss-cpu
