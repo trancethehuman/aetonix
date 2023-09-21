@@ -24,7 +24,7 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 embeddings = OpenAIEmbeddings()
 
 retriever = FAISS.load_local(
-    folder_path="./sales-demo/aetonix/faiss_aetonix", embeddings=embeddings).as_retriever()
+    folder_path="./faiss_aetonix", embeddings=embeddings).as_retriever()
 
 client = Client()
 
